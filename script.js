@@ -5,7 +5,7 @@ document.getElementById('login-form').addEventListener('submit', function(event)
     const errorMessage = document.getElementById('error-message');
 
     // Senha fixa para o exemplo
-    const correctPassword = 'skibidi';
+    const correctPassword = 'nil';
 
     if (password === correctPassword) {
         // Redireciona para o link do Google Drive
